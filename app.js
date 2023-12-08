@@ -117,7 +117,7 @@ userInput = userInput.toLowerCase()
 var flag =false;
 for (i=0; i<bakery.length; i++){
 
-    if (bakery[i].toLowerCase() === userInput){
+    if ( userInput === bakery[i]){
        flag = true;
        alert(userInput + " is available at index " + i + " in our bakery.")
        break
